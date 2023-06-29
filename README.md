@@ -3,7 +3,7 @@ Para poder implmentar el IDS diseñado con Federated Learning es necesarrio segu
 
 ### Descarga del repositorio
 Lo primero de todo será descargar todas las carpetas y documentos que se encuentran en este repositorio. 
-En la carpeta de Datasets se encuentran los datasets que han sido previamente tratados, ya divididos en conjuntos de entrenamiento y prueba.
+Los datasets se encuentran cada uno en una carpeta zip, ya que el peso de la carpeta era muy elevado y no podía subirlo de ninguna otra manera. Por ello, una vez descargadas las carpetas es necesario descomprimirlas para poder utilizarse.
 
 ### Instalación de dependencias
 Para poder desplegar el entorno será necesario instalar algunas dependencias como Flower, Torch, Torchvision y Tqdm
