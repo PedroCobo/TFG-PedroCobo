@@ -1,5 +1,5 @@
 # Setup del proyecto
-Para poder implmentar el IDS diseñado con Federated Learning es necesarrio seguir una serie de pasos:
+Para poder implmentar el IDS diseñado con Federated Learning es necesario seguir una serie de pasos:
 
 ### Descarga del repositorio
 Lo primero de todo será descargar todas las carpetas y documentos que se encuentran en este repositorio. 
