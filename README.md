@@ -38,4 +38,10 @@ Si se quiere iniciar el cliente con el conjunto de datos UNSW-NB15:
 python clientunsw.py
 ```
 
+Si se quiere iniciar el cliente con el conjunto de datos CICIDS2017:
+
+```shell
+python clientCIC.py
+```
+
 El entorno está preparado para que se ejecuten dos clientes que utilicen el mismo conjunto de datos.
