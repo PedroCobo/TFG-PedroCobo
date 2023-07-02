@@ -3,7 +3,12 @@ Para poder implmentar el IDS diseñado con Federated Learning es necesario segui
 
 ### Descarga del repositorio
 Lo primero de todo será descargar todas las carpetas y documentos que se encuentran en este repositorio. 
-Los datasets se encuentran cada uno en una carpeta zip, ya que el peso de la carpeta era muy elevado y no podía subirlo de ninguna otra manera. Por ello, una vez descargadas las carpetas es necesario descomprimirlas para poder utilizarse.
+
+El KDDCUP99 y el UNSW-NB15  se encuentran cada uno en una carpeta zip, ya que el peso de la carpeta era elevado y no podía subirlo de ninguna otra manera. Por ello, una vez descargadas las carpetas es necesario descomprimirlas para poder utilizarse.
+
+El CICIDS2017 se encuentra en el link: https://mega.nz/folder/rr4QXaYL#y_Qv5YvOZ072N0qz5Nd7gg, ya que pesa mucho más que los anteriores y no me permitía subirlo a GitHub directamente. Una vez se acceda al link, hay que descargar la carpeta completa y descomprimir.
+
+Para la ejecución de las consolas, hay que tener el proyecto en la misma carpeta, teniendo cada dataset en su respectiva carpeta: DatasetKDD, DatasetUNSW y DatasetCIC.
 
 ### Instalación de dependencias
 Para poder desplegar el entorno será necesario instalar algunas dependencias como Flower, Torch, Torchvision y Tqdm
@@ -24,7 +29,7 @@ Se arranca el servidor con el siguiente comando:
 python server.py
 ```
 
-Una vez iniciado el servidor, se pueden iniciar los clientes en otra ventana con el siguiente comando:
+Una vez iniciado el servidor, se pueden iniciar los clientes cada uno en otra ventana con el siguiente comando:
 
 Si se quiere iniciar el cliente con el conjunto de datos KDDCUP99:
 
